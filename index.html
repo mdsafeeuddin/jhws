@@ -1,81 +1,111 @@
 <!doctype html>
 <html lang="en">
   <head>
-  	<title>Jubilee Hills Residents Grievance Cell - Home</title>
+  	<title>Jubilee Hills Residence Grievance - Home</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
-		
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/acmeticker.css">
   </head>
   <body>
-		
 		<div class="wrapper d-flex align-items-stretch">
-			<nav id="sidebar" class="active">
-				<h1><a href="index.html" class="logo">S.</a></h1>
-        <ul class="list-unstyled components mb-5">
-          <li class="active">
-            <a href="#"><span class="fa fa-home"></span> Home</a>
-          </li>
-          <li>
-              <a href="#"><span class="fa fa-user"></span> About</a>
-          </li>
-          <li>
-            <a href="#"><span class="fa fa-sticky-note"></span> Blog</a>
-          </li>
-          <li>
-            <a href="#"><span class="fa fa-cogs"></span> Services</a>
-          </li>
-          <li>
-            <a href="#"><span class="fa fa-paper-plane"></span> Contacts</a>
-          </li>
-        </ul>
-    	</nav>
-
+			<nav id="sidebar">
+				<div class="custom-menu">
+					<button type="button" id="sidebarCollapse" class="btn btn-primary">
+	          <i class="fa fa-bars"></i>
+	          <span class="sr-only">Toggle Menu</span>
+	        </button>
+        </div>
+				<div class="p-4">
+          <a href="index.html" class="logo"><img src="images/fullLogo.png" style="height: 197px; padding-bottom: 20px;"></img></a>
+	        <ul class="list-unstyled components mb-5">
+	          <li class="active"><a href="#"><span class="fa fa-home mr-3"></span> Home</a></li>
+	          <li><a href="#"><span class="fa fa-user mr-3"></span> About</a></li>
+	          <li><a href="#"><span class="fa fa-briefcase mr-3"></span> Members</a></li>
+	          <li><a href="#"><span class="fa fa-sticky-note mr-3"></span> Grievance Cell</a></li>
+	          <li><a href="#"><span class="fa fa-suitcase mr-3"></span> Gallery</a></li>
+	          <li><a href="#"><span class="fa fa-paper-plane mr-3"></span> Contact Us</a></li>
+	        </ul>
+	      </div>
+      </nav>
         <!-- Page Content  -->
-      <div id="content" class="p-4 p-md-5">
-
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="container-fluid">
-
-            <button type="button" id="sidebarCollapse" class="btn btn-primary">
-              <i class="fa fa-bars"></i>
-              <span class="sr-only">Toggle Menu</span>
-            </button>
-            <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fa fa-bars"></i>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="nav navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-              </ul>
-            </div>
+      <div id="content" class="p-4 p-md-5 pt-5">
+        <div class="acme-news-ticker">
+          <div class="acme-news-ticker-label">Notice</div>
+          <div class="acme-news-ticker-box">
+            <ul class="my-news-ticker">
+              <li><a href="#">Breaking News 1</a></li>
+              <li><a href="#">Breaking News 2</a></li>
+              <li><a href="#">Breaking News 3</a></li>
+            </ul>
           </div>
-        </nav>
-
-        <h2 class="mb-4">Sidebar #07</h2>
+          <div class="acme-news-ticker-controls acme-news-ticker-horizontal-controls">
+            <span class="acme-news-ticker-arrow acme-news-ticker-prev"></span>
+            <span class="acme-news-ticker-pause"></span>
+            <span class="acme-news-ticker-arrow acme-news-ticker-next"></span>
+          </div>
+        </div>
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 4</div>
+            <img src="images/img_lights_wide.jpg" style="width: 100%;">
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 4</div>
+            <img src="images/img_mountains_wide.jpg" style="width: 100%;">
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 4</div>
+            <img src="images/img_nature_wide.jpg" style="width: 100%;">
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">4 / 4</div>
+            <img src="images/img_snow_wide.jpg" style="width: 100%;">
+          </div>
+          <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
+          <br>
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+          </div>
+        </div>
+        <h2 class="mb-4">Sidebar #05</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
-		</div>
-
+    </div>
+    <div class="footer">
+      <span>
+        Copyright &copy; 2020 Jubilee Hills Welfare Society. All Rights Reserved.
+      </span>
+      <span>
+        <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a> | <a href="#">Legal</a> | <a href="#">Sitemap</a>
+      </span>
+    </div>
     <script src="js/jquery.min.js"></script>
+    <script src="js/acmeticker.js"></script>
     <script src="js/popper.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
+    <script type="text/javascript">
+      $('.my-news-ticker').AcmeTicker({
+        controls: {
+          prev: $('.acme-news-ticker-prev'),
+          toggle: $('.acme-news-ticker-pause'),
+          next: $('.acme-news-ticker-next')
+        },
+        type:'marquee',
+        autoplay: 2000,
+        speed: 0.1,
+        direction:'left',
+        pauseOnFocus:true,
+        pauseOnHover:true
+      });
+    </script>
   </body>
 </html>
