@@ -23,13 +23,13 @@ a {
   background: #fff;
   position: relative;
   height: 45px;
-  border: 1px solid #1974d2;
+  /* border: 1px solid #1974d2; */
   margin-top: 45px; }
   @media (min-width: 768px) {
     .acme-news-ticker {
       margin-top: 0; } }
   .acme-news-ticker-label {
-    background: #1974d2;
+    background: rgb(42,38,79);
     padding: 10px;
     width: auto;
     float: left;
@@ -39,7 +39,7 @@ a {
     color: #fff; }
     @media (max-width: 575px) {
       .acme-news-ticker-label {
-        position: absolute;
+        /* position: absolute; */
         top: -45px; } }
   .acme-news-ticker-box {
     height: 100%;
@@ -48,7 +48,7 @@ a {
     @media (max-width: 575px) {
       .acme-news-ticker-box {
         padding-left: 10px;
-        padding-right: 120px; } }
+        padding-right: 20px; } }
     .acme-news-ticker-box ul {
       width: 100%;
       list-style-type: none !important;
