@@ -27,13 +27,13 @@ a {
   margin-top: 45px; }
   @media (min-width: 768px) {
     .acme-news-ticker {
-      margin-top: 0; } }
+      margin-top: -38px; } }
   .acme-news-ticker-label {
     background: rgb(42,38,79);
     padding: 10px;
     width: auto;
     float: left;
-    margin-right: 15px;
+    margin-right: 0px;
     line-height: normal;
     height: 100%;
     color: #fff; }

@@ -8421,47 +8421,12 @@ a[data-toggle="collapse"] {
   background-color: rgba(0,0,0,0.8);
 }
 
-.notice-bar {
-  float: left;
-  padding: 10px;
-  margin: 2px;
-}
-
-.left {
-  width: 15%;
-  background: orange;
-}
-
-.right {
-  width: 15%;
-}
-
-.middle {
-  width: 70%;
-  border: 1px solid;
-}
-
-.home-row {
-  background: white;
-  width: 100%;
-  height: auto;
-  border-radius: 15px;
-  display: flex;
-}
-
 .column {
   float: left;
   width: 33.33%;
   padding: 10px;
-  text-align: justify;
-  height: auto; /* Should be removed. Only for demonstration */
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+  text-align: justify; 
+  height: auto; 
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
